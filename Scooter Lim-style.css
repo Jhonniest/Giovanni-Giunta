@@ -1,0 +1,101 @@
+/*Generici*/
+*{
+    margin: 0px;
+    width: 1200px;
+    color: white ;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size:1200px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.contenitore{
+    box-sizing: border-box;
+    width: 1000px;
+    height: 600px;
+    background-color: rgba(0, 0, 0,0.7);
+    border-radius: 2%;
+    margin-top: 2%;
+    margin-left: 8%;
+    padding-top: 60px;
+    padding-left:50px;
+}
+
+/*Titolo*/
+header img{
+    width:150px;
+    padding-left: 35%;
+}
+header h1{
+    color: rgb(3, 177, 3);
+    opacity: 100;
+    padding-top: 5px;
+    padding-left: 23%;
+    padding-bottom: 5px;
+}
+
+/*Pulsanti di navigazione*/
+nav{
+    width: 900px;
+    height: 40px;
+    background-color: green;
+    text-align: center;
+    box-sizing: border-box;
+}
+button{
+    width: fit-content;
+    color: black;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/*Monopattini*/
+section{
+    margin-top: 20px;
+}
+.checkbox{
+    display: inline;
+    width: 1%;
+}
+.Monopattino{
+    display: inline;
+    width: 98%;
+    font-size: 22px;
+}
+p{
+    color: grey;
+}
+
+#carica-Gino{
+    margin-top: 2px;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: orange;
+    display: inline-block;
+    width: 350px;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+#carica-Mike{
+    margin-top: 2px;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: green;
+    display: inline-block;
+    width: 500px;
+    height: 20px;
+    box-sizing: border-box;
+}
+#carica-Fede{
+    margin-top: 2px;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    box-sizing: border-box;
+}
